@@ -1,13 +1,7 @@
 import React from 'react';
-import {
-  Pressable,
-  View,
-  Text,
-  ScrollView,
-  StyleSheet,
-} from 'react-native';
+import {Pressable, View, Text, ScrollView, StyleSheet} from 'react-native';
 
-const ToDoList = ({ tasks }) => {
+function ToDoList({tasks}) {
   return (
     <ScrollView>
       <View>
@@ -21,7 +15,7 @@ const ToDoList = ({ tasks }) => {
       </View>
     </ScrollView>
   );
-};
+}
 
 const styles = StyleSheet.create({
   task: {
